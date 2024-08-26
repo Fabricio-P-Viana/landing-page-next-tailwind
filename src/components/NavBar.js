@@ -1,6 +1,6 @@
 const NavBar = () => {
     return (
-      <nav className="bg-cyan-700 p-4">
+      <nav className="bg-transparent bg-white bg-opacity-30 p-4">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-white text-lg font-bold">Next | Tailwind</div>
           <div className="space-x-4">

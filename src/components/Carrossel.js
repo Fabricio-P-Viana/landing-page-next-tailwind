@@ -14,9 +14,9 @@ const Carrossel = ({ images }) => {
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
   };
-
+  
   return (
-    <div className="relative w-full mx-auto ">
+    <div className="relative w-full mx-auto">
       <div className="overflow-hidden">
         <img src={images[currentIndex]} alt={`Slide ${currentIndex}`} className="w-full h-auto" />
       </div>
